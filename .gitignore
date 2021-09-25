@@ -1,0 +1,6 @@
+/venv
+/__pycache__
+constants.py
+/qr_result
+serviceAccountKey.json
+result.xlsx
