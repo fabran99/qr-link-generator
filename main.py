@@ -49,7 +49,7 @@ def generate_all_qrs(n):
         qr_image = generate_qr_image(url)
         qr_image.save("./qr_result/{}.png".format(x))
         url_list.append({
-            "url": default_url,
+            "url": url_base + x,
             "figura":default_figure
         })
     
